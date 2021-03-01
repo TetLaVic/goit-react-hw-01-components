@@ -1,0 +1,24 @@
+.statusGreen {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: green;
+  border-radius: 50%;
+}
+.statusRed {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.avatar {
+  /* display: inline-block; */
+  width: 100px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}

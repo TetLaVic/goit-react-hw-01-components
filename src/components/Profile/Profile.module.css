@@ -1,3 +1,55 @@
+body {
+  background-color: rgb(245, 240, 247);
+}
+
 ul {
   list-style: none;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  background-color: white;
+  padding: 35px 35px 0px 35px;
+  border: 1px solid violet;
+}
+
+.description {
+  border-bottom: 2px solid violet;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+}
+.avatar {
+  border-radius: 50%;
+  border: 2px solid violet;
+}
+
+.tag,
+.location {
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats li {
+  flex-grow: 1;
+  width: 100%;
+  min-height: 50px;
+}
+
+.label {
+  display: block;
+  margin-right: 10px;
+}
+
+.quantity {
+  font-weight: bold;
 }

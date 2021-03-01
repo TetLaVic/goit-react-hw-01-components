@@ -1,0 +1,15 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 25%; */
+}
+
+.friendListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid grey; */
+}
